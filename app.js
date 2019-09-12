@@ -12,7 +12,7 @@ new Vue({
     methods: {
         formSubmitted: function () {
              this.guestName.push(this.newNameText)
-            this.newNameText = ''
+             this.newNameText = ''
         }
     }
 });

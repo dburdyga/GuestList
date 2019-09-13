@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header" v-bind:class="formSubmitClass">
             {{ event.eventDate }}
             </div>
             <div class="card-block">
@@ -31,7 +31,9 @@
               <p class="card-text">{{ event.eventDescription }}</p>
               <p class="card-text">Add your name to the guest list for exclusive offers:</p>
 
-              <form class="form-inline" v-on:submit.prevent="formSubmitted">
+              <form
+                      class="form-inline"
+                      v-on:submit.prevent="formSubmitted">
                 <input
                         type="text"
                         id="nameInput"
@@ -40,6 +42,7 @@
                         v-model="newNameText">
                 <input
                         type="submit"
+                        v-bind:class="formSubmitClass"
                         class="btn btn-primary">
               </form>
               {{ newNameText }}
@@ -52,7 +55,7 @@
         <div class="col-sm-12">
           <div class="card">
             <div class="card-header">
-              Attending ()
+              Attending ({{ guestName.length }})
             </div>
             <div class="card-block">
               <div v-if="guestName.length > 0">

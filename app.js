@@ -9,7 +9,6 @@ new Vue({
         },
         newNameText: '',
         guestName: ['James', 'Chris', 'Sam'],
-        formSubmitClass: "",
         appStyles: {
             marginTop: '25px'
         }
@@ -19,7 +18,6 @@ new Vue({
              if(this.newNameText.length > 0) {
                  this.guestName.push(this.newNameText)
                  this.newNameText = ''
-                 this.formSubmitClass = "submitted"
              }
         }
     }

@@ -23,13 +23,17 @@
       <div class="row" :style="appStyles">
         <div class="col-sm-12">
           <div class="card">
-            <div class="card-header" :class="formSubmitClass">
+            <div class="card-header">
             {{ event.eventDate }}
             </div>
             <div class="card-block">
-              <h4 class="card-title" v-once>{{ event.eventTitle }}</h4><hr>
+              <h4
+                      class="card-title"
+                      v-once>{{ event.eventTitle }}</h4><hr>
               <p class="card-text">{{ event.eventDescription }}</p>
-              <p class="card-text" v-html="event.signUpText"></p>
+              <p
+                      class="card-text"
+                      v-html="event.signUpText"></p>
 
               <form
                       class="form-inline"
@@ -42,7 +46,6 @@
                         v-model="newNameText">
                 <input
                         type="submit"
-                        :class="formSubmitClass"
                         class="btn btn-primary">
               </form>
               {{ newNameText }}
@@ -56,6 +59,8 @@
           <div class="card">
             <div class="card-header">
               Attending ({{ guestName.length }})
+              <br>
+              <progress></progress>
             </div>
             <div class="card-block">
               <div v-if="guestName.length > 0">

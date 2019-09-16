@@ -43,12 +43,11 @@
                         id="nameInput"
                         class="form-control mb-2 mr-sm-2 mb-sm-0"
                         placeholder="Jane Doe"
-                        v-model="newNameText">
+                        v-model="newNameText"
+                        @keyup.space="keyPressed">
                 <input
                         type="submit"
                         class="btn btn-primary">
-                <button @click="methodCall">Call a method</button>
-                {{ test }}
               </form>
               {{ newNameText }}
             </div>

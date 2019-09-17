@@ -45,6 +45,12 @@ new Vue({
 new Vue({
     el: '#navigation',
     data: {
-        appName: 'GuestList'
+        appName: 'GuestList',
+        navLinks: [
+            {name: "Home", id: 1},
+            {name: "Upcoming events", id: 2},
+            {name: "Guest Benefits", id: 3},
+            {name: "Latest News", id: 4}
+        ]
     }
 })

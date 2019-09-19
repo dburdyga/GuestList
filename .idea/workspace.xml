@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada451c8-c269-42d4-9175-e85f7aa8b336" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GuestList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SomeProject/.idea/SomeProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SomeProject/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SomeProject/.idea/modules.xml" afterDir="false" />
@@ -11,6 +15,8 @@
       <change afterPath="$PROJECT_DIR$/../SomeProject/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../firebase-test-master/.browserslistrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../firebase-test-master/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../firebase-test-master/README.md" beforeDir="false" />
@@ -87,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="167">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -96,11 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#8#1353#0" />
-              </folding>
+            <state relative-caret-position="482">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -150,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,18 +214,19 @@
       <workItem from="1568710151256" duration="2843000" />
       <workItem from="1568720658128" duration="1078000" />
       <workItem from="1568879576665" duration="612000" />
-      <workItem from="1568880809012" duration="4026000" />
+      <workItem from="1568880809012" duration="4049000" />
+      <workItem from="1568889551195" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29720000" />
+    <option name="totallyTimeSpent" value="30871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02232143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2700893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,18 +278,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#8#1353#0" />
-          </folding>
+        <state relative-caret-position="482">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="167">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="52" />
         </state>
       </provider>
     </entry>
